@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Start Elgato Key Light Tray
+Comment=Ein-Klick Start ohne Terminal
+Exec=sh -c 'BASE="$(dirname "$(readlink -f "$1")")"; exec sh "$BASE/run_desktop.sh"' sh %k
+Icon=preferences-system
+Terminal=false
+Categories=Utility;
+StartupNotify=true

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <radialGradient id="lamp" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#ffe8a6" />
+      <stop offset="70%" stop-color="#efb84d" />
+      <stop offset="100%" stop-color="#7a4e00" />
+    </radialGradient>
+  </defs>
+  <rect width="256" height="256" rx="44" fill="#172531" />
+  <circle cx="128" cy="128" r="78" fill="url(#lamp)" stroke="#4e3300" stroke-width="10"/>
+  <g stroke="#fff5c2" stroke-width="10" stroke-linecap="round">
+    <line x1="128" y1="16" x2="128" y2="44"/>
+    <line x1="128" y1="212" x2="128" y2="240"/>
+    <line x1="16" y1="128" x2="44" y2="128"/>
+    <line x1="212" y1="128" x2="240" y2="128"/>
+    <line x1="46" y1="46" x2="66" y2="66"/>
+    <line x1="190" y1="190" x2="210" y2="210"/>
+    <line x1="46" y1="210" x2="66" y2="190"/>
+    <line x1="190" y1="66" x2="210" y2="46"/>
+  </g>
+</svg>

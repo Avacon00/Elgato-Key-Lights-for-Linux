@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Setup + Start Elgato Key Light Tray
+Comment=Installiert Desktop-Integration und startet die App
+Exec=sh -c 'BASE="$(dirname "$(readlink -f "$1")")"; exec sh "$BASE/one_click_setup.sh"' sh %k
+Icon=preferences-system
+Terminal=false
+Categories=Utility;
+StartupNotify=true
