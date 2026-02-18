@@ -1,6 +1,6 @@
 <div align="center">
   <img src="assets/elgato-keylight-tray.svg" alt="Elgato Key Light Tray Icon" width="120" />
-  <h1>Elgato Key Light Tray (Linux)</h1>
+  <h1>Elgato Key Lights for Linux</h1>
   <p>Portable tray app for Elgato Key Lights on Fedora, Ubuntu, Arch and Pop!_OS.</p>
 </div>
 
@@ -9,7 +9,7 @@
 ## Deutsch (DE)
 
 ### Was ist das?
-`Elgato Key Light Tray` ist eine einfache Linux-App, mit der du deine Elgato Key Lights direkt aus dem System-Tray steuern kannst:
+`Elgato Key Lights for Linux` ist eine einfache Linux-App (App-Name: `Elgato Key Light Tray`), mit der du deine Elgato Key Lights direkt aus dem System-Tray steuern kannst:
 - Lampen im Netzwerk automatisch finden
 - Pro Lampe: AN/AUS, Helligkeit, Farbtemperatur
 - Einstellungen im Tray und im Hauptfenster
@@ -94,7 +94,7 @@ Pakete:
 ## English (EN)
 
 ### What is this?
-`Elgato Key Light Tray` is a simple Linux tray app to control Elgato Key Lights:
+`Elgato Key Lights for Linux` is a simple Linux tray app (app name: `Elgato Key Light Tray`) to control Elgato Key Lights:
 - Auto-discovery in your local network
 - Per light: ON/OFF, brightness, color temperature
 - Control from tray popup and main window
