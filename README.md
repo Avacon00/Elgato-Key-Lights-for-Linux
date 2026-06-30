@@ -6,6 +6,9 @@
 
 ---
 
+## Version
+Aktuelle Version: `v0.2.5`
+
 ## Deutsch (DE)
 
 ### Was ist das?
@@ -40,14 +43,16 @@ Wenn AppImage nicht startet:
 
 ### Projekt lokal starten (aus Source)
 ```bash
-cd /home/marcs/Dokumente/Software
+git clone https://github.com/Avacon00/Elgato-Key-Lights-for-Linux.git
+cd Elgato-Key-Lights-for-Linux
 ./run.sh
 ```
-Beim ersten Start wird automatisch `.venv` erstellt und `PySide6` installiert.
+Beim ersten Start wird automatisch `.venv` erstellt und `PySide6` installiert. Dafuer wird eine Internetverbindung benoetigt.
 
 ### Desktop-Integration (Startmenue + Autostart)
 ```bash
-cd /home/marcs/Dokumente/Software
+git clone https://github.com/Avacon00/Elgato-Key-Lights-for-Linux.git
+cd Elgato-Key-Lights-for-Linux
 ./install_desktop.sh
 ```
 Erzeugt:
@@ -125,14 +130,16 @@ If AppImage does not start:
 
 ### Run from source
 ```bash
-cd /home/marcs/Dokumente/Software
+git clone https://github.com/Avacon00/Elgato-Key-Lights-for-Linux.git
+cd Elgato-Key-Lights-for-Linux
 ./run.sh
 ```
-On first run, a local `.venv` is created and `PySide6` is installed.
+On first run, a local `.venv` is created and `PySide6` is installed. This requires internet access.
 
 ### Desktop integration (menu + autostart)
 ```bash
-cd /home/marcs/Dokumente/Software
+git clone https://github.com/Avacon00/Elgato-Key-Lights-for-Linux.git
+cd Elgato-Key-Lights-for-Linux
 ./install_desktop.sh
 ```
 Creates:
@@ -180,11 +187,11 @@ Packages:
 
 Build AppImage + portable tarball:
 ```bash
-scripts/build_appimage.sh 1.0.0
+scripts/build_appimage.sh 0.2.5
 ```
 Output:
-- `dist/Elgato-Key-Light-Tray-1.0.0-x86_64.AppImage`
-- `dist/Elgato-Key-Light-Tray-1.0.0-x86_64-portable.tar.gz`
+- `dist/Elgato-Key-Light-Tray-0.2.5-x86_64.AppImage`
+- `dist/Elgato-Key-Light-Tray-0.2.5-x86_64-portable.tar.gz`
 
 Key files:
 - `keylight_tray.py`
