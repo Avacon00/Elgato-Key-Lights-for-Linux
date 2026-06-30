@@ -5,7 +5,7 @@ APP_NAME="elgato-keylight-tray"
 APP_TITLE="Elgato Key Light Tray"
 SCRIPT_DIR=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
 ROOT_DIR=$(CDPATH= cd -- "$SCRIPT_DIR/.." && pwd)
-VERSION=${1:-0.1.0}
+VERSION=${1:-0.2.5}
 
 BUILD_ROOT="$ROOT_DIR/build/appimage"
 PYI_ROOT="$BUILD_ROOT/pyinstaller"
@@ -46,6 +46,7 @@ if ! "$PY" -m pip --version >/dev/null 2>&1; then
   exit 1
 fi
 
+"$PY" -m py_compile "$ROOT_DIR/keylight_tray.py"
 "$PY" -m pip install --upgrade pip >/dev/null
 "$PY" -m pip install -r "$ROOT_DIR/requirements.txt" pyinstaller >/dev/null
 
@@ -134,7 +135,7 @@ cat > "$DESKTOP_FILE" << DESKTOP
 [Desktop Entry]
 Type=Application
 Name=$APP_TITLE
-Comment=Steuerung fur Elgato Key Lights im System Tray
+Comment=Steuerung fuer Elgato Key Lights im System Tray
 Exec=$APP_NAME
 Icon=$APP_NAME
 Terminal=false
